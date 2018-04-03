@@ -1,0 +1,33 @@
+.modal {
+  display: block;
+  overflow: auto;
+
+  width: 600px;
+  height: 350px;
+  margin: 0 auto;
+  margin-top: 100px;
+
+  background-color: #fff;
+  box-shadow: 0px 0px 5px 1px #848484;
+  border-radius: 3px;
+}
+
+.modal > header {
+  position: relative;
+  padding: 15px;
+  background-color: #f1f1f1;
+  border-bottom: 1px solid #bdbdbd;
+  border-top-right-radius: inherit;
+  border-top-left-radius: inherit;
+}
+
+.modal > header .modal-close {
+  position: absolute;
+  right: 10px;
+  cursor: pointer;
+}
+
+.modal-body {
+  display: block;
+  margin: 15px;
+}

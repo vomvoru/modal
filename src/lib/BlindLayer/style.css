@@ -1,0 +1,31 @@
+.blind-layer {
+  display: none;
+}
+
+.blind-layer.show {
+  display: block;
+  background-color: rgba(0, 0, 0, 0);
+  transition: background-color 200ms linear;
+
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+}
+
+.blind-layer.show {
+  cursor: pointer;
+}
+
+.blind-layer-content {
+  cursor: initial;
+}
+
+.blind-layer.out {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.blind-layer.over {
+  background-color: rgba(0, 0, 0, 0.3);
+}
